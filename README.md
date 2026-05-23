@@ -57,16 +57,39 @@ forge test
 npm run test
 ```
 
-### 格式化代码
+### 运行特定测试
 
 ```shell
-forge fmt
+# 运行单个测试文件
+forge test --match-path test/Auction.t.sol
+
+# 运行单个测试函数
+forge test --match-test testCreateAuction
+```
+
+### 测试覆盖率报告
+
+```shell
+# 查看覆盖率摘要
+forge coverage
+
+# 生成 LCOV 格式报告（可用于可视化工具）
+forge coverage --report lcov
+
+# 生成分行覆盖率详情
+forge coverage --report summary
 ```
 
 ### Gas 快照
 
 ```shell
 forge snapshot
+```
+
+### 格式化代码
+
+```shell
+forge fmt
 ```
 
 ### 启动本地节点
