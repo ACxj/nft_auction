@@ -10,6 +10,14 @@ states/
 *.dbg.json
 *.tsbuildinfo
 
-# Optional
+# Foundry
+out/
+cache/
+
+# Environment
 .env
 .env.local
+
+# Dependencies
+lib/
+node_modules/

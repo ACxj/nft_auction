@@ -1,0 +1,17 @@
+{
+  "name": "homework-nft",
+  "version": "0.1.0",
+  "description": "NFT Auction Marketplace with Chainlink Oracle and UUPS Proxy",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "deploy": "forge script script/Deploy.s.sol:DeployScript --rpc-url sepolia --broadcast --verify",
+    "upgrade": "forge script script/Upgrade.s.sol:UpgradeScript --rpc-url sepolia --broadcast --verify"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "@chainlink/contracts": "^1.0.0"
+  },
+  "devDependencies": {}
+}
