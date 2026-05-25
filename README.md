@@ -105,6 +105,12 @@ forge script script/Deploy.s.sol:DeployScript --rpc-url sepolia --broadcast --ve
 # 或
 npm run deploy
 ```
+### 部署地址，其一
+  NFT deployed to: 0xc0e7B4b51639d2dd9B755E7A59c7FF799Fdc58c1
+  PriceOracle deployed to: 0xB5685946401A2df8efE187E85fFba63Cab664f63
+  Auction Implementation deployed to: 0x5161e429Eb08e51A321D234542B08420992bdb00
+  Auction Proxy deployed to: 0x3AD48d64ef7e256E3350a966678539069504F7B7
+
 
 ### 升级合约
 
